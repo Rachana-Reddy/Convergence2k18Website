@@ -2,8 +2,8 @@
     $('.convergence-text').hide();
 
     $('.menu-icon').click(function() {
-        $(this).toggleClass('menu-open');
         $('.nav').toggleClass('show');
+        $(this).toggleClass('menu-open');
     });
 
     var animData = {
