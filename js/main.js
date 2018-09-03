@@ -27,9 +27,9 @@
     });
 
     $(".team-image").mouseenter(function () {
-        $('#team-member-image').css('z-index',16);
         personImage = $(this).attr('convergence-src');
         if (typeof personImage != typeof undefined) {
+            $('#team-member-image').css('z-index',16);
             $('#demoimage').attr('src', personImage);
             $('#demoimage').show('200')
             var images = $('.team-image')

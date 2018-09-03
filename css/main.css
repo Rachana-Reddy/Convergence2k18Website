@@ -1,3 +1,8 @@
+* {
+    font-family: 'Oleo Script', cursive;
+    user-select: none;
+}
+
 body,
 html {
     margin: 0;
@@ -251,6 +256,7 @@ section {
 .section-heading {
     position: relative;
     color: white !important;
+    /* font-family: 'Oleo Script', cursive; */
     z-index: 16 !important;
 }
 
